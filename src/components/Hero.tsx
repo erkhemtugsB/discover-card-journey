@@ -29,9 +29,6 @@ const Hero = () => {
             <Button variant="hero" size="xl">
               Apply Now
             </Button>
-            <Button variant="outline" size="xl" className="border-white text-white hover:bg-white hover:text-secondary">
-              Learn More
-            </Button>
           </div>
         </div>
       </div>

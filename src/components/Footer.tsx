@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 
 const Footer = () => {
   return (
-    <footer className="bg-secondary text-white py-12">
+    <footer id="help" className="bg-secondary text-white py-12">
       <div className="container mx-auto px-4">
         <div className="grid md:grid-cols-4 gap-8 mb-8">
           {/* Logo & Description */}
@@ -14,9 +14,6 @@ const Footer = () => {
               Discover financial products designed to help you reach your goals. 
               From credit cards to banking, we're here to support your journey.
             </p>
-            <Button variant="outline" className="border-white text-white hover:bg-white hover:text-secondary">
-              Contact Us
-            </Button>
           </div>
 
           {/* Quick Links */}

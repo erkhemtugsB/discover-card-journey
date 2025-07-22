@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { Search, Menu, HelpCircle, ChevronDown } from "lucide-react";
+import { Menu } from "lucide-react";
 
 const Header = () => {
   return (
@@ -15,18 +15,18 @@ const Header = () => {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <div className="flex items-center space-x-1 cursor-pointer hover:text-primary transition-colors">
-              <span>All Products</span>
-              <ChevronDown className="w-4 h-4" />
-            </div>
-            <div className="flex items-center space-x-1 cursor-pointer hover:text-primary transition-colors">
-              <HelpCircle className="w-4 h-4" />
-              <span>Help and Resources</span>
-            </div>
-            <div className="flex items-center space-x-1 cursor-pointer hover:text-primary transition-colors">
-              <Search className="w-4 h-4" />
-              <span>Search</span>
-            </div>
+            <a href="#services" className="hover:text-primary transition-colors cursor-pointer">
+              All Products
+            </a>
+            <a href="#credit-cards" className="hover:text-primary transition-colors cursor-pointer">
+              Credit Cards
+            </a>
+            <a href="#how-to-apply" className="hover:text-primary transition-colors cursor-pointer">
+              How to Apply
+            </a>
+            <a href="#help" className="hover:text-primary transition-colors cursor-pointer">
+              Help & Resources
+            </a>
           </nav>
 
           {/* Login Button */}
